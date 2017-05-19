@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/ziom/progbase2/labs/lab8/build",
+  "command": "/usr/bin/c++    -I/home/ziom/progbase2/labs/lab8/include  -std=c++14  -g   -o CMakeFiles/lab8.dir/main.cpp.o -c /home/ziom/progbase2/labs/lab8/main.cpp",
+  "file": "/home/ziom/progbase2/labs/lab8/main.cpp"
+},
+{
+  "directory": "/home/ziom/progbase2/labs/lab8/build",
+  "command": "/usr/bin/c++    -I/home/ziom/progbase2/labs/lab8/include  -std=c++14  -g   -o CMakeFiles/lab8.dir/src/repositories.cpp.o -c /home/ziom/progbase2/labs/lab8/src/repositories.cpp",
+  "file": "/home/ziom/progbase2/labs/lab8/src/repositories.cpp"
+},
+{
+  "directory": "/home/ziom/progbase2/labs/lab8/build",
+  "command": "/usr/bin/c++    -I/home/ziom/progbase2/labs/lab8/include  -std=c++14  -g   -o CMakeFiles/lab8.dir/src/inputParse.cpp.o -c /home/ziom/progbase2/labs/lab8/src/inputParse.cpp",
+  "file": "/home/ziom/progbase2/labs/lab8/src/inputParse.cpp"
+},
+{
+  "directory": "/home/ziom/progbase2/labs/lab8/build",
+  "command": "/usr/bin/c++    -I/home/ziom/progbase2/labs/lab8/include  -std=c++14  -g   -o CMakeFiles/lab8.dir/src/https_server.cpp.o -c /home/ziom/progbase2/labs/lab8/src/https_server.cpp",
+  "file": "/home/ziom/progbase2/labs/lab8/src/https_server.cpp"
+},
+{
+  "directory": "/home/ziom/progbase2/labs/lab8/build",
+  "command": "/usr/bin/c++    -I/home/ziom/progbase2/labs/lab8/include  -std=c++14  -g   -o CMakeFiles/lab8.dir/src/response.cpp.o -c /home/ziom/progbase2/labs/lab8/src/response.cpp",
+  "file": "/home/ziom/progbase2/labs/lab8/src/response.cpp"
+}
+]

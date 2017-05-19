@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14  -g   CMakeFiles/lab8.dir/main.cpp.o CMakeFiles/lab8.dir/src/repositories.cpp.o CMakeFiles/lab8.dir/src/inputParse.cpp.o CMakeFiles/lab8.dir/src/https_server.cpp.o CMakeFiles/lab8.dir/src/response.cpp.o  -o lab8 -rdynamic -lprogbase-cpp -lprogbase -lssl -ljansson 

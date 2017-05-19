@@ -1,0 +1,153 @@
+\hypertarget{responce_8h}{}\section{include/responce.h File Reference}
+\label{responce_8h}\index{include/responce.\+h@{include/responce.\+h}}
+
+
+creates information about response  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include \char`\"{}repositories.\+h\char`\"{}}\\*
+Include dependency graph for responce.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{responce_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{responce_8h_af84f671a64834cb5121503d634eb3543}{information\+\_\+about\+\_\+server} ()
+\begin{DoxyCompactList}\small\item\em creates information about server \end{DoxyCompactList}\item 
+string \hyperlink{responce_8h_a7d847248c61ad8e413d98ac718733964}{Favourite\+Repository} (vector$<$ \hyperlink{classRepository}{Repository} $\ast$ $>$ repository)
+\begin{DoxyCompactList}\small\item\em creates information about favorite repositories \end{DoxyCompactList}\item 
+string \hyperlink{responce_8h_aefadbf51dcf80da5005c397a84896be2}{find\+Where\+Id\+Is} (vector$<$ \hyperlink{classRepository}{Repository} $\ast$ $>$ repository, string data\+As\+String, string key)
+\begin{DoxyCompactList}\small\item\em creates information about some repositories, by field id \end{DoxyCompactList}\item 
+string \hyperlink{responce_8h_a835c5691f8e6512057a87e86169a0164}{get\+File} ()
+\begin{DoxyCompactList}\small\item\em creates information about file \char`\"{}data.\+txt\char`\"{} \end{DoxyCompactList}\item 
+string \hyperlink{responce_8h_ae60f8e88a80a035785b1a5c8dc438b4d}{find\+Key\+Value} (vector$<$ \hyperlink{classRepository}{Repository} $\ast$ $>$ repository, string data\+As\+String, string key)
+\begin{DoxyCompactList}\small\item\em creates information about some repositories, by field key = value \end{DoxyCompactList}\item 
+string \hyperlink{responce_8h_abbf7ee804ee2e9a9ed56d23212a201a6}{get\+File\+Letter} ()
+\begin{DoxyCompactList}\small\item\em creates information about letters in file \char`\"{}data.\+txt\char`\"{} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+creates information about response 
+
+
+
+\subsection{Function Documentation}
+\index{responce.\+h@{responce.\+h}!Favourite\+Repository@{Favourite\+Repository}}
+\index{Favourite\+Repository@{Favourite\+Repository}!responce.\+h@{responce.\+h}}
+\subsubsection[{\texorpdfstring{Favourite\+Repository(vector$<$ Repository $\ast$ $>$ repository)}{FavouriteRepository(vector< Repository * > repository)}}]{\setlength{\rightskip}{0pt plus 5cm}string Favourite\+Repository (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf Repository} $\ast$ $>$}]{repository}
+\end{DoxyParamCaption}
+)}\hypertarget{responce_8h_a7d847248c61ad8e413d98ac718733964}{}\label{responce_8h_a7d847248c61ad8e413d98ac718733964}
+
+
+creates information about favorite repositories 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repository} & -\/ my favorite repositories \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+response on \char`\"{}/favorites\char`\"{} 
+\end{DoxyReturn}
+\index{responce.\+h@{responce.\+h}!find\+Key\+Value@{find\+Key\+Value}}
+\index{find\+Key\+Value@{find\+Key\+Value}!responce.\+h@{responce.\+h}}
+\subsubsection[{\texorpdfstring{find\+Key\+Value(vector$<$ Repository $\ast$ $>$ repository, string data\+As\+String, string key)}{findKeyValue(vector< Repository * > repository, string dataAsString, string key)}}]{\setlength{\rightskip}{0pt plus 5cm}string find\+Key\+Value (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf Repository} $\ast$ $>$}]{repository, }
+\item[{string}]{data\+As\+String, }
+\item[{string}]{key}
+\end{DoxyParamCaption}
+)}\hypertarget{responce_8h_ae60f8e88a80a035785b1a5c8dc438b4d}{}\label{responce_8h_ae60f8e88a80a035785b1a5c8dc438b4d}
+
+
+creates information about some repositories, by field key = value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repository} & -\/ my favorite repositories \\
+\hline
+{\em data\+As\+String} & -\/ input string \\
+\hline
+{\em key} & name of field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+response on \char`\"{}/favorites?somefield=value\char`\"{} 
+\end{DoxyReturn}
+\index{responce.\+h@{responce.\+h}!find\+Where\+Id\+Is@{find\+Where\+Id\+Is}}
+\index{find\+Where\+Id\+Is@{find\+Where\+Id\+Is}!responce.\+h@{responce.\+h}}
+\subsubsection[{\texorpdfstring{find\+Where\+Id\+Is(vector$<$ Repository $\ast$ $>$ repository, string data\+As\+String, string key)}{findWhereIdIs(vector< Repository * > repository, string dataAsString, string key)}}]{\setlength{\rightskip}{0pt plus 5cm}string find\+Where\+Id\+Is (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf Repository} $\ast$ $>$}]{repository, }
+\item[{string}]{data\+As\+String, }
+\item[{string}]{key}
+\end{DoxyParamCaption}
+)}\hypertarget{responce_8h_aefadbf51dcf80da5005c397a84896be2}{}\label{responce_8h_aefadbf51dcf80da5005c397a84896be2}
+
+
+creates information about some repositories, by field id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repository} & -\/ my favorite repositories \\
+\hline
+{\em data\+As\+String} & -\/ input string \\
+\hline
+{\em key} & name of field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+response on \char`\"{}/favorites/\char`\"{} 
+\end{DoxyReturn}
+\index{responce.\+h@{responce.\+h}!get\+File@{get\+File}}
+\index{get\+File@{get\+File}!responce.\+h@{responce.\+h}}
+\subsubsection[{\texorpdfstring{get\+File()}{getFile()}}]{\setlength{\rightskip}{0pt plus 5cm}string get\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{responce_8h_a835c5691f8e6512057a87e86169a0164}{}\label{responce_8h_a835c5691f8e6512057a87e86169a0164}
+
+
+creates information about file \char`\"{}data.\+txt\char`\"{} 
+
+\begin{DoxyReturn}{Returns}
+response to \char`\"{}/file\char`\"{} 
+\end{DoxyReturn}
+\index{responce.\+h@{responce.\+h}!get\+File\+Letter@{get\+File\+Letter}}
+\index{get\+File\+Letter@{get\+File\+Letter}!responce.\+h@{responce.\+h}}
+\subsubsection[{\texorpdfstring{get\+File\+Letter()}{getFileLetter()}}]{\setlength{\rightskip}{0pt plus 5cm}string get\+File\+Letter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{responce_8h_abbf7ee804ee2e9a9ed56d23212a201a6}{}\label{responce_8h_abbf7ee804ee2e9a9ed56d23212a201a6}
+
+
+creates information about letters in file \char`\"{}data.\+txt\char`\"{} 
+
+\begin{DoxyReturn}{Returns}
+response to \char`\"{}/file/data\char`\"{} 
+\end{DoxyReturn}
+\index{responce.\+h@{responce.\+h}!information\+\_\+about\+\_\+server@{information\+\_\+about\+\_\+server}}
+\index{information\+\_\+about\+\_\+server@{information\+\_\+about\+\_\+server}!responce.\+h@{responce.\+h}}
+\subsubsection[{\texorpdfstring{information\+\_\+about\+\_\+server()}{information_about_server()}}]{\setlength{\rightskip}{0pt plus 5cm}string information\+\_\+about\+\_\+server (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{responce_8h_af84f671a64834cb5121503d634eb3543}{}\label{responce_8h_af84f671a64834cb5121503d634eb3543}
+
+
+creates information about server 
+
+\begin{DoxyReturn}{Returns}
+response to \char`\"{}/\char`\"{} 
+\end{DoxyReturn}

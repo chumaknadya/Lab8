@@ -1,0 +1,207 @@
+\hypertarget{classRepository}{}\section{Repository Class Reference}
+\label{classRepository}\index{Repository@{Repository}}
+
+
+defines fields of repositories  
+
+
+
+
+{\ttfamily \#include $<$repositories.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRepository_acea749ed86f3239ecf20c696f721ab7e}{Repository} ()\hypertarget{classRepository_acea749ed86f3239ecf20c696f721ab7e}{}\label{classRepository_acea749ed86f3239ecf20c696f721ab7e}
+
+\begin{DoxyCompactList}\small\item\em default public constructor for \hyperlink{classRepository}{Repository} \end{DoxyCompactList}\item 
+\hyperlink{classRepository_ae706286558286f91aecf1274c0e730ea}{Repository} (int \hyperlink{classRepository_a939747771b843e2e6ac651bdf273ec0f}{id}, std\+::string \hyperlink{classRepository_a8d967c3615e5a68be145889fb23aac14}{name}, std\+::string \hyperlink{classRepository_adffe93ad41af4c08c3adb8bcb1ea12fa}{language}, std\+::string \hyperlink{classRepository_a81933778a20e63810589ebc9de593782}{description})
+\begin{DoxyCompactList}\small\item\em public constructor for \hyperlink{classRepository}{Repository} that fill all fields in \hyperlink{classRepository}{Repository} \end{DoxyCompactList}\item 
+\hyperlink{classRepository_a26ba073b495c4b231658713f1e3ffeae}{$\sim$\+Repository} ()\hypertarget{classRepository_a26ba073b495c4b231658713f1e3ffeae}{}\label{classRepository_a26ba073b495c4b231658713f1e3ffeae}
+
+\begin{DoxyCompactList}\small\item\em default public destructor for \hyperlink{classRepository}{Repository} \end{DoxyCompactList}\item 
+void \hyperlink{classRepository_a41e85c3ea1a98682066fca0d9386dd72}{set\+\_\+name} (std\+::string \hyperlink{classRepository_a8d967c3615e5a68be145889fb23aac14}{name})
+\begin{DoxyCompactList}\small\item\em sets name of repository \end{DoxyCompactList}\item 
+void \hyperlink{classRepository_a42c5546e4289a197a5dc5b57e3b20c73}{set\+\_\+language} (std\+::string \hyperlink{classRepository_adffe93ad41af4c08c3adb8bcb1ea12fa}{language})
+\begin{DoxyCompactList}\small\item\em sets programming language of repository \end{DoxyCompactList}\item 
+void \hyperlink{classRepository_a6db26d595479cb9bad8f77c71cace7f0}{set\+\_\+description} (std\+::string \hyperlink{classRepository_a81933778a20e63810589ebc9de593782}{description})
+\begin{DoxyCompactList}\small\item\em sets general information about repository \end{DoxyCompactList}\item 
+void \hyperlink{classRepository_a55158dd3fae6d0baaff29557c4a853b4}{set\+\_\+id} (int \hyperlink{classRepository_a939747771b843e2e6ac651bdf273ec0f}{id})
+\begin{DoxyCompactList}\small\item\em sets unique id of repository \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classRepository_a8d967c3615e5a68be145889fb23aac14}{name} ()
+\begin{DoxyCompactList}\small\item\em get name of repository \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classRepository_adffe93ad41af4c08c3adb8bcb1ea12fa}{language} ()
+\begin{DoxyCompactList}\small\item\em get programming language of repository \end{DoxyCompactList}\item 
+int \hyperlink{classRepository_a939747771b843e2e6ac651bdf273ec0f}{id} ()
+\begin{DoxyCompactList}\small\item\em get id of repository \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classRepository_a81933778a20e63810589ebc9de593782}{description} ()
+\begin{DoxyCompactList}\small\item\em get description of repository \end{DoxyCompactList}\item 
+void \hyperlink{classRepository_a2ecd8cabd6d37be033d3f4bf8e90f5ae}{print} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+defines fields of repositories 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Repository@{Repository}!Repository@{Repository}}
+\index{Repository@{Repository}!Repository@{Repository}}
+\subsubsection[{\texorpdfstring{Repository(int id, std\+::string name, std\+::string language, std\+::string description)}{Repository(int id, std::string name, std::string language, std::string description)}}]{\setlength{\rightskip}{0pt plus 5cm}Repository\+::\+Repository (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{std\+::string}]{name, }
+\item[{std\+::string}]{language, }
+\item[{std\+::string}]{description}
+\end{DoxyParamCaption}
+)}\hypertarget{classRepository_ae706286558286f91aecf1274c0e730ea}{}\label{classRepository_ae706286558286f91aecf1274c0e730ea}
+
+
+public constructor for \hyperlink{classRepository}{Repository} that fill all fields in \hyperlink{classRepository}{Repository} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & -\/ unique key of repository \\
+\hline
+{\em name} & -\/ name of repository \\
+\hline
+{\em language} & -\/ a programming language \\
+\hline
+{\em description} & -\/ general information about repository \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Repository@{Repository}!description@{description}}
+\index{description@{description}!Repository@{Repository}}
+\subsubsection[{\texorpdfstring{description()}{description()}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Repository\+::description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classRepository_a81933778a20e63810589ebc9de593782}{}\label{classRepository_a81933778a20e63810589ebc9de593782}
+
+
+get description of repository 
+
+\begin{DoxyReturn}{Returns}
+string that represents description of repository 
+\end{DoxyReturn}
+\index{Repository@{Repository}!id@{id}}
+\index{id@{id}!Repository@{Repository}}
+\subsubsection[{\texorpdfstring{id()}{id()}}]{\setlength{\rightskip}{0pt plus 5cm}int Repository\+::id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classRepository_a939747771b843e2e6ac651bdf273ec0f}{}\label{classRepository_a939747771b843e2e6ac651bdf273ec0f}
+
+
+get id of repository 
+
+\begin{DoxyReturn}{Returns}
+string that represents id of repository 
+\end{DoxyReturn}
+\index{Repository@{Repository}!language@{language}}
+\index{language@{language}!Repository@{Repository}}
+\subsubsection[{\texorpdfstring{language()}{language()}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Repository\+::language (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classRepository_adffe93ad41af4c08c3adb8bcb1ea12fa}{}\label{classRepository_adffe93ad41af4c08c3adb8bcb1ea12fa}
+
+
+get programming language of repository 
+
+\begin{DoxyReturn}{Returns}
+string that represents programming language of repository 
+\end{DoxyReturn}
+\index{Repository@{Repository}!name@{name}}
+\index{name@{name}!Repository@{Repository}}
+\subsubsection[{\texorpdfstring{name()}{name()}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Repository\+::name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classRepository_a8d967c3615e5a68be145889fb23aac14}{}\label{classRepository_a8d967c3615e5a68be145889fb23aac14}
+
+
+get name of repository 
+
+\begin{DoxyReturn}{Returns}
+string that represents name of repository 
+\end{DoxyReturn}
+\index{Repository@{Repository}!print@{print}}
+\index{print@{print}!Repository@{Repository}}
+\subsubsection[{\texorpdfstring{print()}{print()}}]{\setlength{\rightskip}{0pt plus 5cm}void Repository\+::print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classRepository_a2ecd8cabd6d37be033d3f4bf8e90f5ae}{}\label{classRepository_a2ecd8cabd6d37be033d3f4bf8e90f5ae}
+data to the screen \index{Repository@{Repository}!set\+\_\+description@{set\+\_\+description}}
+\index{set\+\_\+description@{set\+\_\+description}!Repository@{Repository}}
+\subsubsection[{\texorpdfstring{set\+\_\+description(std\+::string description)}{set_description(std::string description)}}]{\setlength{\rightskip}{0pt plus 5cm}void Repository\+::set\+\_\+description (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{description}
+\end{DoxyParamCaption}
+)}\hypertarget{classRepository_a6db26d595479cb9bad8f77c71cace7f0}{}\label{classRepository_a6db26d595479cb9bad8f77c71cace7f0}
+
+
+sets general information about repository 
+
+
+\begin{DoxyParams}{Parameters}
+{\em description} & -\/ description of repository \\
+\hline
+\end{DoxyParams}
+\index{Repository@{Repository}!set\+\_\+id@{set\+\_\+id}}
+\index{set\+\_\+id@{set\+\_\+id}!Repository@{Repository}}
+\subsubsection[{\texorpdfstring{set\+\_\+id(int id)}{set_id(int id)}}]{\setlength{\rightskip}{0pt plus 5cm}void Repository\+::set\+\_\+id (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}\hypertarget{classRepository_a55158dd3fae6d0baaff29557c4a853b4}{}\label{classRepository_a55158dd3fae6d0baaff29557c4a853b4}
+
+
+sets unique id of repository 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & -\/ unique key \\
+\hline
+\end{DoxyParams}
+\index{Repository@{Repository}!set\+\_\+language@{set\+\_\+language}}
+\index{set\+\_\+language@{set\+\_\+language}!Repository@{Repository}}
+\subsubsection[{\texorpdfstring{set\+\_\+language(std\+::string language)}{set_language(std::string language)}}]{\setlength{\rightskip}{0pt plus 5cm}void Repository\+::set\+\_\+language (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{language}
+\end{DoxyParamCaption}
+)}\hypertarget{classRepository_a42c5546e4289a197a5dc5b57e3b20c73}{}\label{classRepository_a42c5546e4289a197a5dc5b57e3b20c73}
+
+
+sets programming language of repository 
+
+
+\begin{DoxyParams}{Parameters}
+{\em language} & -\/ programming language of repository \\
+\hline
+\end{DoxyParams}
+\index{Repository@{Repository}!set\+\_\+name@{set\+\_\+name}}
+\index{set\+\_\+name@{set\+\_\+name}!Repository@{Repository}}
+\subsubsection[{\texorpdfstring{set\+\_\+name(std\+::string name)}{set_name(std::string name)}}]{\setlength{\rightskip}{0pt plus 5cm}void Repository\+::set\+\_\+name (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{name}
+\end{DoxyParamCaption}
+)}\hypertarget{classRepository_a41e85c3ea1a98682066fca0d9386dd72}{}\label{classRepository_a41e85c3ea1a98682066fca0d9386dd72}
+
+
+sets name of repository 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ name of repository \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{repositories_8h}{repositories.\+h}\item 
+src/repositories.\+cpp\end{DoxyCompactItemize}
